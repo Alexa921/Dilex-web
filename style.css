@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Section1-hero*/
+
+#hero {
+    background-color: #696969;
+    width: 100%;
+    height: 300px;
+}
+
+h1 {
+    color: white;
+    font-size: 28px;
+    padding-top: 60px;
+    padding-left: 20px;
+
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.texto-hero {
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+
+.boton-hero {
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px rgb(56, 56, 56) solid;
+    margin-top: 35px;
+    margin-left: 112px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(56, 56, 56);
+}
+
+/*Section2-sobre nosotros*/
+
+#sobre-nosotros {
+    background-color: #e6e3e1;
+    height: 600px;
+}
+
+.titulo-sobre-nosotros {
+    font-size: 30px;
+    padding-top: 36px;
+    padding-left: 10px;
+
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.texto-sobre-nosotros {
+    font-size: 14px;
+    padding-top: 16px;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+
+.img-sobre-nosotros {
+    width: 350px;
+    height: 240px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
