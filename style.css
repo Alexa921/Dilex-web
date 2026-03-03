@@ -73,6 +73,76 @@ h1 {
     width: 350px;
     height: 240px;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 10px;
     border-radius: 20px;
+}
+
+/*Servicios*/
+
+#servicios {
+    background-color: #e1e3de;
+    height: 330px;
+}
+
+.titulo-servicios {
+    font-size: 28px;
+    padding-top: 36px;
+    padding-left: 12px;
+    padding-bottom: 15px;
+
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.servicios-lista {
+    font-size: 15px;
+    padding-top: 16px;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+
+.servicios-lista li {
+   margin-bottom: 15px;
+}
+
+/*Beneficios*/
+
+#beneficios {
+    background-color: #e6e3e1;
+    height: 360px;
+}
+
+.titulo-beneficios {
+    font-size: 28px;
+    padding-top: 36px;
+    padding-left: 25px;
+
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.texto-beneficios {
+    font-size: 13px;
+    padding-top: 6px;
+    padding-left: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+}
+
+#servicios p {
+   text-align: center;
+}
+
+.beneficios-lista {
+    font-size: 15px;
+    padding-top: 25px;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+
+.beneficios-lista li {
+   margin-bottom: 15px;
 }
