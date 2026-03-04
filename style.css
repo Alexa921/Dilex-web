@@ -16,7 +16,7 @@ h1 {
     color: white;
     font-size: 28px;
     padding-top: 60px;
-    padding-left: 20px;
+    padding-left: 14px;
 
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: bold;
@@ -28,7 +28,7 @@ h1 {
     font-family: sans-serif;
     font-size: 14px;
     padding-top: 8px;
-    padding-left: 12px;
+    padding-left: 6px;
 }
 
 .boton-hero {
@@ -38,7 +38,7 @@ h1 {
     background-color: white;
     border: 2px rgb(56, 56, 56) solid;
     margin-top: 35px;
-    margin-left: 112px;
+    margin-left: 110px;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 12px;
@@ -81,7 +81,7 @@ h1 {
 
 #servicios {
     background-color: #e1e3de;
-    height: 330px;
+    height: 310px;
 }
 
 .titulo-servicios {
@@ -98,8 +98,9 @@ h1 {
 .servicios-lista {
     font-size: 15px;
     padding-top: 16px;
-    padding-left: 10px;
+    padding-left: 50px;
     font-family: sans-serif;
+    list-style: none;
 }
 
 .servicios-lista li {
@@ -126,10 +127,9 @@ h1 {
 .texto-beneficios {
     font-size: 13px;
     padding-top: 6px;
-    padding-left: 25px;
+    padding-left: 34px;
     font-family: sans-serif;
-    font-weight: bold;
-    color: rgb(49, 49, 49);
+    color: rgb(65, 65, 65);
 }
 
 #servicios p {
@@ -145,4 +145,197 @@ h1 {
 
 .beneficios-lista li {
    margin-bottom: 15px;
+}
+
+/*Proyectos*/
+/*Proyecto 1*/
+
+#proyectos1 {
+    background-color: #e1e3de;
+    height: 530px;
+}
+
+.titulo-proyectos1 {
+    font-size: 18px;
+    padding-top: 36px;
+    padding-left: 25px;
+
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.titulo2-proyectos1 {
+    font-size: 26px;
+    padding-top: 36px;
+    padding-left: 25px;
+
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.texto-proyectos1 {
+    font-size: 14px;
+    padding-top: 16px;
+    padding-left: 24px;
+    font-family: sans-serif;
+}
+
+/* Galería horizontal */
+.galeria-proyecto {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 30px 20px;
+    scroll-snap-type: x mandatory;
+}
+
+.galeria-proyecto img {
+    flex: 0 0 85%;
+    border-radius: 20px;
+    scroll-snap-align: center;
+    width: 350px;
+    height: 220px;
+}
+
+/*Proyecto 2*/
+
+#proyectos2 {
+    background-color: #272727;
+    height: 530px;
+}
+
+.titulo-proyectos2 {
+    font-size: 18px;
+    padding-top: 36px;
+    padding-left: 25px;
+    color: white;
+
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.titulo2-proyectos2 {
+    font-size: 26px;
+    padding-top: 36px;
+    padding-left: 25px;
+    color: white;
+
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.texto-proyectos2 {
+    font-size: 14px;
+    padding-top: 16px;
+    padding-left: 24px;
+    font-family: sans-serif;
+    color: white;
+}
+
+/*Proyecto 3*/
+
+#proyectos3 {
+    background-color: #e1e3de;
+    height: 530px;
+}
+
+.titulo-proyectos3 {
+    font-size: 18px;
+    padding-top: 36px;
+    padding-left: 25px;
+
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.titulo2-proyectos3 {
+    font-size: 26px;
+    padding-top: 36px;
+    padding-left: 25px;
+
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.texto-proyectos3 {
+    font-size: 14px;
+    padding-top: 16px;
+    padding-left: 24px;
+    font-family: sans-serif;
+}
+
+/*Proceso*/
+
+#proceso {
+    background-color: #e6e3e1;
+    height: 330px;
+}
+
+.titulo-proceso {
+    font-size: 30px;
+    padding-top: 36px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.proceso-lista {
+    font-size: 16px;
+    padding-top: 16px;
+    padding-left: 25px;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+.proceso-lista li {
+   margin-bottom: 15px;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #000000;
+    height: 330px;
+}
+
+footer h2 {
+    color: white;
+    font-size: 28px;
+    padding-top: 60px;
+    padding-left: 30px;
+
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+footer p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding-top: 18px;
+    padding-left: 6px;
+}
+
+footer button {
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px rgb(0, 0, 0) solid;
+    margin-top: 35px;
+    margin-left: 110px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
 }
