@@ -141,6 +141,7 @@ h1 {
     padding-top: 25px;
     padding-left: 10px;
     font-family: sans-serif;
+    list-style: none;
 }
 
 .beneficios-lista li {
@@ -189,6 +190,14 @@ h1 {
     overflow-x: auto;
     padding: 30px 20px;
     scroll-snap-type: x mandatory;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.galeria-proyecto::-webkit-scrollbar {
+    display: none;
 }
 
 .galeria-proyecto img {
@@ -338,4 +347,307 @@ footer button {
     font-weight: bold;
     font-size: 12px;
     color: rgb(0, 0, 0);
+}
+
+/*Boton wpp*/
+
+.wpp-float{
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+
+    z-index: 1000;
+}
+
+.wpp-float img{
+    width: 50px;
+}
+
+/* =========================
+TABLET 768px
+========================= */
+
+@media (min-width: 768px) {
+
+#hero{
+    height: 420px;
+}
+
+h1{
+    font-size: 48px;
+    padding-left: 75px;
+}
+
+.texto-hero{
+    font-size: 18px;
+    padding-left: 125px;
+}
+
+.boton-hero{
+    font-size: 14px;
+    width: 180px;
+    height: 55px;
+    margin-left: 280px;
+}
+
+/* Sobre nosotros */
+
+#sobre-nosotros{
+    height: auto;
+    padding-bottom: 60px;
+}
+
+.titulo-sobre-nosotros{
+    font-size: 50px;
+    padding-left: 150px;
+}
+
+.texto-sobre-nosotros{
+    font-size: 15px;
+    padding-left: 150px;
+    width: 70%;
+}
+
+.img-sobre-nosotros{
+    width: 500px;
+    height: 320px;
+    margin-left: 120px;
+}
+
+/* Servicios */
+
+#servicios{
+    height: auto;
+    padding-bottom: 60px;
+}
+
+.titulo-servicios{
+    font-size: 40px;
+    padding-left: 120px;
+}
+
+.servicios-lista{
+    font-size: 18px;
+    padding-left: 200px;
+}
+
+/* Beneficios */
+
+#beneficios{
+    height: auto;
+    padding-bottom: 60px;
+}
+
+.titulo-beneficios{
+    font-size: 40px;
+    text-align: center;
+    margin-right: 90px;
+}
+
+.texto-beneficios {
+    font-size: 16px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.beneficios-lista{
+    font-size: 18px;
+    margin-left: 150px;
+
+}
+
+/* Proyectos */
+
+.titulo-proyectos3, .titulo-proyectos2, .titulo-proyectos1 {
+    font-size: 20px;
+}
+
+.titulo2-proyectos3, .titulo2-proyectos2, .titulo2-proyectos1 {
+    font-size: 26px;
+}
+
+.texto-proyectos3, .texto-proyectos2, .texto-proyectos1 {
+    font-size: 16px;
+    padding-top: 16px;
+    padding-left: 24px;
+    max-width: 410px;
+}
+
+.galeria-proyecto{
+    scrollbar-width: auto;
+}
+
+.galeria-proyecto::-webkit-scrollbar{
+    display: block;
+    height: 8px;
+}
+
+.galeria-proyecto::-webkit-scrollbar-track{
+    background: #d1d1d1;
+    border-radius: 10px;
+}
+
+.galeria-proyecto::-webkit-scrollbar-thumb{
+    background: #696969;
+    border-radius: 10px;
+}
+
+.galeria-proyecto img{
+    flex: 0 0 60%;
+}
+
+/* Proceso */
+
+#proceso{
+    height: auto;
+    padding-bottom: 60px;
+}
+
+.titulo-proceso{
+    font-size: 50px;
+    padding-left: 150px;
+}
+
+.proceso-lista{
+    font-size: 18px;
+    padding-left: 200px;
+}
+
+/* Footer */
+
+footer{
+    height: auto;
+    padding-bottom: 60px;
+}
+
+footer h2{
+    font-size: 30px;
+    text-align: center;
+    padding-right: 50px;
+}
+
+footer h2 span {
+    padding-right: 80px;
+}
+
+footer p{
+    font-size: 16px;
+    padding-left: 130px;
+}
+
+footer button {
+    font-size: 14px;
+    width: 180px;
+    height: 55px;
+    margin-left: 280px;
+}
+
+}
+
+
+/* =========================
+DESKTOP 1024px
+========================= */
+
+@media (min-width: 1024px) {
+
+#hero{
+    height: 520px;
+}
+
+h1{
+    font-size: 56px;
+}
+
+.texto-hero{
+    font-size: 20px;
+}
+
+.boton-hero{
+    width: 180px;
+    height: 55px;
+    font-size: 14px;
+}
+
+/* Sobre nosotros */
+
+#sobre-nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto-sobre-nosotros{
+    width: 40%;
+}
+
+.img-sobre-nosotros{
+    width: 520px;
+    height: 340px;
+}
+
+/* Servicios */
+
+.servicios-lista{
+    font-size: 20px;
+}
+
+/* Beneficios */
+
+.beneficios-lista{
+    font-size: 20px;
+}
+
+/* Proyectos */
+
+.galeria-proyecto{
+    scrollbar-width: auto;
+}
+
+.galeria-proyecto::-webkit-scrollbar{
+    display: block;
+    height: 8px;
+}
+
+.galeria-proyecto::-webkit-scrollbar-track{
+    background: #d1d1d1;
+    border-radius: 10px;
+}
+
+.galeria-proyecto::-webkit-scrollbar-thumb{
+    background: #696969;
+    border-radius: 10px;
+}
+
+.galeria-proyecto img{
+    flex: 0 0 40%;
+}
+
+/* Proceso */
+
+.proceso-lista{
+    font-size: 20px;
+}
+
+/* Footer */
+
+footer h2{
+    font-size: 44px;
+}
+
+footer p{
+    font-size: 18px;
+}
+
 }
