@@ -381,17 +381,17 @@ Celular grande 412px
 @media (min-width: 412px) {
 
 h1{
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .texto-hero{
-    font-size: 13px;
+    font-size: 10px;
 }
 
 /* Beneficios */
 
 .titulo-beneficios{
-    font-size: 22px;
+    font-size: 20px;
 }
 
 /* Proceso */
@@ -403,7 +403,7 @@ h1{
 /* Footer */
 
 footer p{
-    font-size: 10px;
+    font-size: 8px;
 }
 
 }
