@@ -725,32 +725,178 @@ DESKTOP 1440px
 @media (min-width:1440px){
 
 #hero{
-height:600px;
+    height: 600px;
 }
 
 h1{
-font-size:70px;
+    font-size: 86px;
+    padding-left: 400px;
+    padding-top: 100px;
 }
 
 .texto-hero{
-font-size:22px;
+    font-size: 35px;
+    padding-left: 460px;
 }
 
+.boton-hero{
+    width: 230px;
+    height: 65px;
+    font-size: 18px;
+    margin-top: 80px;
+    margin-left: 770px;
+}
+
+/* Sobre nosotros */
+
 #sobre-nosotros{
-gap:120px;
-padding:120px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 80px;
+    height: auto;
 }
 
 .img-sobre-nosotros{
-width:550px;
+    width: 500px;
+    height: auto;
+    margin: 0;
+    margin-left: 200px;
 }
 
 .titulo-sobre-nosotros{
-font-size:60px;
+    font-size: 50px;
+    padding: 0;
 }
 
 .texto-sobre-nosotros{
-font-size:20px;
+    font-size: 20px;
+    padding: 0;
+    margin-top: 20px;
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+/* Servicios */
+
+.titulo-servicios{
+    font-size: 60px;
+    padding-left: 530px;
+}
+
+.servicios-lista{
+    font-size: 24px;
+    padding-top: 30px;
+    padding-left: 680px;
+}
+
+/* Beneficios */
+
+.titulo-beneficios{
+    font-size: 60px;
+    text-align: center;
+    margin-right: 120px;
+}
+
+.texto-beneficios {
+    font-size: 20px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.beneficios-lista{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 580px;
+
+}
+
+/* Proyectos */
+
+#proyectos1, #proyectos2, #proyectos3 {
+    height: 870px;
+}
+
+.titulo-proyectos3, .titulo-proyectos2, .titulo-proyectos1 {
+    font-size: 25px;
+}
+
+.titulo2-proyectos3, .titulo2-proyectos2, .titulo2-proyectos1 {
+    font-size: 42px;
+}
+
+.texto-proyectos3, .texto-proyectos2, .texto-proyectos1 {
+    font-size: 20px;
+    padding-top: 16px;
+    padding-left: 24px;
+    max-width: 470px;
+}
+
+.galeria-proyecto{
+    scrollbar-width: auto;
+}
+
+.galeria-proyecto::-webkit-scrollbar{
+    display: block;
+    height: 8px;
+}
+
+.galeria-proyecto::-webkit-scrollbar-track{
+    background: #d1d1d1;
+    border-radius: 10px;
+}
+
+.galeria-proyecto::-webkit-scrollbar-thumb{
+    background: #696969;
+    border-radius: 10px;
+}
+
+.galeria-proyecto img{
+    flex: 0 0 60%;
+    height: 500px;
+}
+
+/* Proceso */
+
+.titulo-proceso{
+    font-size: 60px;
+    padding-left: 600px;
+}
+
+.proceso-lista{
+    font-size: 25px;
+    padding-left: 630px;
+}
+
+/* Footer */
+
+footer h2{
+    font-size: 60px;
+    margin-right: 80px;
+}
+
+footer p{
+    font-size: 25px;
+    margin-left: 410px;
+}
+
+footer button {
+    width: 230px;
+    height: 65px;
+    font-size: 18px;
+    margin-top: 80px;
+    margin-left: 800px;
+}
+
+/* Wpp */
+
+.wpp-float{
+    bottom: 45px;
+    right: 40px;
+}
+
+.wpp-float img{
+    width: 70px;
 }
 
 }
