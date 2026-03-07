@@ -375,6 +375,40 @@ footer button {
 }
 
 /* =========================
+Celular grande 412px
+========================= */
+
+@media (min-width: 412px) {
+
+h1{
+    font-size: 24px;
+}
+
+.texto-hero{
+    font-size: 13px;
+}
+
+/* Beneficios */
+
+.titulo-beneficios{
+    font-size: 22px;
+}
+
+/* Proceso */
+
+.titulo-proceso{
+   padding-left: 40px;
+}
+
+/* Footer */
+
+footer p{
+    font-size: 10px;
+}
+
+}
+
+/* =========================
 TABLET 768px
 ========================= */
 
