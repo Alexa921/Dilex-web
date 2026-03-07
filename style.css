@@ -374,37 +374,28 @@ footer button {
     width: 50px;
 }
 
-/* =========================
-Celular grande 412px
-========================= */
-
-@media (min-width: 412px) {
+/* Móviles grandes */
+@media (min-width: 400px) {
 
 h1{
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .texto-hero{
-    font-size: 10px;
+    font-size: 14px;
 }
-
-/* Beneficios */
 
 .titulo-beneficios{
-    font-size: 20px;
+    font-size: 22px;
 }
-
-/* Proceso */
 
 .titulo-proceso{
-   padding-left: 40px;
+    padding-left: 20px;
 }
 
-/* Footer */
-
 footer p{
-    font-size: 8px;
-    padding-left: 40px;
+    font-size: 12px;
+    padding-left: 20px;
 }
 
 }
