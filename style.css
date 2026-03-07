@@ -26,7 +26,7 @@ h1 {
 .texto-hero {
     color: white;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     padding-top: 8px;
     padding-left: 6px;
 }
@@ -81,7 +81,7 @@ h1 {
 
 #servicios {
     background-color: #e1e3de;
-    height: 310px;
+    height: 350px;
 }
 
 .titulo-servicios {
@@ -98,7 +98,6 @@ h1 {
 .servicios-lista {
     font-size: 15px;
     padding-top: 16px;
-    padding-bottom: 20px;
     padding-left: 50px;
     font-family: sans-serif;
     list-style: none;
@@ -112,7 +111,7 @@ h1 {
 
 #beneficios {
     background-color: #e6e3e1;
-    height: 360px;
+    height: 390px;
 }
 
 .titulo-beneficios {
@@ -140,7 +139,6 @@ h1 {
 .beneficios-lista {
     font-size: 15px;
     padding-top: 25px;
-    padding-bottom: 20px;
     padding-left: 10px;
     font-family: sans-serif;
     list-style: none;
@@ -285,7 +283,7 @@ h1 {
 
 #proceso {
     background-color: #e6e3e1;
-    height: 330px;
+    height: 350px;
 }
 
 .titulo-proceso {
@@ -302,7 +300,6 @@ h1 {
 .proceso-lista {
     font-size: 16px;
     padding-top: 16px;
-    padding-bottom: 20px;
     padding-left: 25px;
     font-family: sans-serif;
     list-style: none;
