@@ -375,60 +375,62 @@ footer button {
 }
 
 /* =========================
-AJUSTES ESPECÍFICOS PARA MÓVIL (Tecno Pova 5 y similares)
+AJUSTES PARA MÓVIL (Tecno Pova 5)
 ========================= */
 
 @media screen and (max-width: 767px) {
-    /* 1. HERO: H1 y P */
+    
+    /* 1. QUITAR LÍNEAS AZULES EN BOTONES */
+    button, a, input, textarea {
+        outline: none !important;
+        -webkit-tap-highlight-color: transparent; /* Quita el destello azul en Android */
+    }
+
+    /* 2. HERO: H1 y P (Reducción de tamaño) */
     #hero {
-        height: auto; /* Permite que el contenedor crezca con el texto */
-        padding-bottom: 50px;
-        text-align: center; /* Centramos para balancear la pantalla alta */
+        height: auto;
+        padding-bottom: 40px;
+        text-align: center;
     }
 
     h1 {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 60px;
-        font-size: 30px; /* Un poco más de presencia */
+        padding: 50px 20px 0 20px; /* Arriba, Lados, Abajo */
+        font-size: 24px; /* Bajamos de 30px a 24px para evitar los 3 renglones */
+        line-height: 1.2;
         width: 100%;
     }
 
     .texto-hero {
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 16px;
+        padding: 10px 30px;
+        font-size: 14px; /* Un poco más pequeño y fino */
         line-height: 1.4;
     }
 
     .boton-hero {
-        margin-left: auto; /* Centrado automático */
-        margin-right: auto;
+        margin: 25px auto 0 auto;
         display: block;
-        margin-top: 30px;
+        border: 1px solid rgb(56, 56, 56); /* Aseguramos borde limpio */
     }
 
-    /* 2. BENEFICIOS: H2 y P */
+    /* 3. BENEFICIOS: H2 */
     #beneficios {
         height: auto;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
     }
 
     .titulo-beneficios {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 30px 20px 10px 20px;
         text-align: center;
-        font-size: 28px;
+        font-size: 22px; /* Reducido para que no rompa */
     }
 
     .texto-beneficios {
-        padding-left: 25px;
-        padding-right: 25px;
+        padding: 0 25px;
         text-align: center;
-        font-size: 15px;
+        font-size: 14px;
     }
 
-    /* 3. FOOTER: P y Botón */
+    /* 4. FOOTER: P */
     footer {
         height: auto;
         padding-bottom: 40px;
@@ -436,33 +438,26 @@ AJUSTES ESPECÍFICOS PARA MÓVIL (Tecno Pova 5 y similares)
     }
 
     footer h2 {
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 26px;
+        padding: 40px 20px 10px 20px;
+        font-size: 22px;
     }
 
     footer p {
-        padding-left: 25px;
-        padding-right: 25px;
-        font-size: 14px;
-        margin-bottom: 20px;
+        padding: 0 30px;
+        font-size: 13px; /* Más sutil para el pie de página */
+        line-height: 1.4;
     }
 
     footer button {
-        margin-left: auto; /* Centrado automático */
-        margin-right: auto;
+        margin: 20px auto 0 auto;
         display: block;
-        margin-top: 20px;
     }
 
-    /* Extra: Ajuste de imagen Sobre Nosotros para que no se corte */
-    .img-sobre-nosotros {
-        width: 90%;
-        max-width: 350px;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+    /* Ajuste extra para la lista de beneficios (se veía muy pegada) */
+    .beneficios-lista {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 14px;
     }
 }
 
