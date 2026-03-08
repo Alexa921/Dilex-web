@@ -369,8 +369,6 @@ a{
     text-decoration: none;
 }
 
-footer button
-
 /*Boton wpp*/
 
 .wpp-float{
@@ -391,7 +389,6 @@ footer button
 
     z-index: 1000;
 }
-
 .wpp-float img{
     width: 50px;
 }
