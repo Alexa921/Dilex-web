@@ -380,6 +380,7 @@ footer button {
 /* HERO */
 
 h1{
+    font-size: 22px;
     padding-left:20px;
     padding-right:20px;
     line-height:1.2;
@@ -394,7 +395,7 @@ h1{
 /* BENEFICIOS */
 
 .titulo-beneficios{
-    font-size:26px;
+    font-size:22px;
     padding-left:20px;
     padding-right:20px;
 }
@@ -408,8 +409,7 @@ h1{
 /* FOOTER */
 
 footer p{
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:60px;
     max-width:360px;
 }
 
