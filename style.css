@@ -381,7 +381,7 @@ AJUSTES PARA MÓVIL (Tecno Pova 5)
 @media screen and (max-width: 767px) {
     
     /* 1. QUITAR LÍNEAS AZULES EN BOTONES */
-    button, a, input, textarea {
+    .boton-hero, a, input, textarea {
         outline: none !important;
         -webkit-tap-highlight-color: transparent; /* Quita el destello azul en Android */
     }
@@ -439,7 +439,7 @@ AJUSTES PARA MÓVIL (Tecno Pova 5)
 
     footer h2 {
         padding: 40px 20px 10px 20px;
-        font-size: 22px;
+        font-size: 20px;
     }
 
     footer p {
@@ -451,6 +451,7 @@ AJUSTES PARA MÓVIL (Tecno Pova 5)
     footer button {
         margin: 20px auto 0 auto;
         display: block;
+        text-decoration: none;
     }
 
     /* Ajuste extra para la lista de beneficios (se veía muy pegada) */
